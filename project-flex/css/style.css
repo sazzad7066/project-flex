@@ -1,0 +1,357 @@
+/* commom css code start*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+}
+.my-20{
+    margin: 20px 0px;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/* commom css code end*/
+
+/* navbar-brand css code end*/
+a.navbar-brand{
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Playfair Display", "Segoe UI", "Helvetica Neue", Aria;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* navbar-brand css code end*/
+
+/* navber css code start*/
+ul.navber{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 60%;
+}
+/* navber css code end*/
+ul.navber li{
+    list-style: none;
+}
+ul.navber li a{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    padding: 6px 10px;
+    display: inline-block;
+    transition: 0.5 all;
+    text-decoration: none;
+}
+ul.navber li a:hover{
+    color: rgba(0, 0, 0, 0.9);
+}
+.Golobar-button{    width: 33%;
+    display: flex;
+    justify-content: end;
+}
+.Golobar-button a{
+    color: #03A87C;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    padding: 6px 10px;
+    margin: 10px 0px;
+    display: inline-block;
+    transition: 0.5 all;
+    border: 1px solid #03A87C;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.Golobar-button a:hover{
+    color: #fff;
+    background: #03A87C;
+}
+/*nav code end*/
+
+/*banner code start*/
+header .banner-inner .banner-content{
+    width: 50%;
+    padding: 80px 40px;
+    background: #E8F3EC;
+}
+header .banner-inner .banner-content h2{
+color: #212529;
+font-size: 40px;
+font-weight: 700;
+font-family: "Playfair Display", "Segoe UI", "Helvetica Neue", Aria;
+
+}
+header .banner-inner .banner-content p{
+    color: #212529;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    padding: 20px 0px;
+}
+header .banner-inner .banner-content a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    padding: 6px 10px;
+    margin: 10px 0px;
+    display: inline-block;
+    transition: 0.5 all;
+    border: 1px solid #212529;
+    background:#212529;
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-decoration: none;
+}
+header .banner-inner .banner-content a:hover{
+    color: #fff;
+    background: #101214;
+}
+.banner-poster{
+    width: 50%;
+    display: flex;
+}
+/*banner code end*/
+/*about code start*/
+.about-section{
+    margin: 20px 0px 0px 0px;
+ 
+}
+.about-inner{
+    background: #D9D9DB;
+}
+.about-inner article{
+    width: 50%;
+    padding-right: 20px;
+}
+.about-inner article a {
+    color: #101214;
+    font: 24px;
+    font-weight: 800;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 20px 0px;
+    display: block;
+}
+.about-inner article a:hover{
+    color: #03a87c;
+}
+.about-inner article  p{
+    color: #212529;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+}
+.about-inner article small{
+font-size: 14px;
+color: #6c757d;
+font-weight: 400;
+font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+line-height: 1.5;
+display: block;
+margin: 10px 0px;
+}
+.about-inner aside{
+    width: 50%;
+}
+.about-inner aside .about-post{
+    display: flex;
+}
+.about-inner aside .about-post .about-post-poster{
+    width: 25%;
+}
+.about-inner aside .about-post .about-post-content{
+    width: 75%;
+    padding-left: 20px;
+}
+.about-inner aside .about-post .about-post-content a {
+    color: #101214;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+}
+.about-inner aside .about-post .about-post-content a:hover{
+    color: #03a87c;
+    text-decoration: underline;
+}
+.about-inner aside .about-post .about-post-content small{
+    font-size: 14px;
+    color: #6c757d;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    line-height: 1.5;
+    display: block;
+    margin: 10px 0px;
+    }
+/*about code end*/
+
+/*blog code start*/
+footer{
+    background: #212529;
+}
+.blog-section{
+    margin: 30px 0px 0px 0px;
+  
+}
+.blog-inner{
+    background: #F1F1F1
+}
+.blog-inner .blog-content .about-post{
+    display: flex;
+}
+.blog-section .blog-content{
+    width: 60%;
+        width: 60%;
+        margin: 0px 0px 0px 10px;
+    }
+.about-post-content{
+    width: 80%;
+} 
+.about-post-poster{
+    width: 20%;
+}
+.blog-inner .blog-content .about-post .about-post-content a{
+    color: #101214;
+    font-weight: 700;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+.blog-inner .blog-content .about-post .about-post-content a:hover{
+    color: #03a87c;
+    text-decoration: underline;
+}
+.blog-inner .blog-content .about-post .about-post-content p{
+    color: #212529;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    padding: 10px 0px;
+}
+.blog-inner .blog-content .about-post .about-post-content small{
+    font-size: 14px;
+    color: #6c757d;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    line-height: 1.5;
+    display: block;
+    margin: 10px 0px;
+ }
+ .blog-inner .blog-content .about-post .about-post-poster img{
+    height: auto;
+ }
+ /*aside code start*/
+aside{
+    width: 40%;
+    padding-left: 20px;
+}
+aside .blog-section{
+display: flex;
+}
+aside .blog-section .blog-section-number{
+width: 10%;
+}
+aside .blog-section .blog-section-number h2{
+    color: #212529;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+}
+aside .blog-section .blog-section-content{
+    width: 90%;
+}
+
+aside .blog-section .blog-section-content  a{
+    color: #101214;
+    font-weight: 700;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+aside .blog-section .blog-section-content  a:hover{
+    color: #03a87c;
+    text-decoration: underline;
+}
+aside .blog-section .blog-section-content small{
+    font-size: 14px;
+    color: #6c757d;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    line-height: 1.5;
+    display: block;
+    margin: 10px 0px;
+ }
+ /*aside code end*/
+/*blog code end*/
+/*footer section start*/
+footer{
+    border: 1px solid #E8F3EC;
+}
+.footer-section{
+    display: flex;
+}
+.footer-section .footer-section-logo{
+    width: 50%;
+    display: flex;
+    padding: 25px 0px;
+    
+}
+.footer-section .footer-section-logo h2{
+  color: #6c757d;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Playfair Display", "Segoe UI", "Helvetica Neue", Arial;
+ 
+}
+.footer-section .footer-section-logo span{
+  color: #6c757d;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+  margin: 6px 0px;
+}
+.footer-section .footer-section-right{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    padding: 25px 0px;
+}
+.footer-section .footer-section-right a{
+    color: #5F68D6;
+    font-weight: 700;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px 0px;
+    display: block;
+}
+.footer-section .footer-section-right  a:hover{
+    color: #5F68D6;
+    text-decoration: underline;
+}
+.footer-section .footer-section-right small{
+    font-size: 20px;
+    color: #6c757d;
+    font-weight: 400;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", Arial;
+    line-height: 1.5;
+    display: block;
+    margin: 10px 0px;
+ }
